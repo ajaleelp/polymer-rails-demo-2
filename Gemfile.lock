@@ -79,6 +79,8 @@ GEM
       nokogiri
     polymer-elements-rails (1.0.0.pre.rc.1)
       polymer-rails (~> 1.0, >= 1.0.3)
+    polymer-iron-rails (1.0.0.pre.rc.3)
+      polymer-rails (~> 1.0, >= 1.0.3)
     polymer-rails (1.0.8)
       nokogiri (~> 1.6)
       nokogumbo (~> 1.1)
@@ -159,6 +161,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   polymer-elements-rails
+  polymer-iron-rails
   polymer-rails (~> 1.0)
   rails (= 4.2.3)
   sass-rails (~> 5.0)
