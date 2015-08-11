@@ -1,3 +1,13 @@
 <h1>Welcome#index</h1>
 <p>Find me in app/views/welcome/index.html.erb</p>
 <paper-button raised>flat button</paper-button>
+<br>
+<paper-button raised onclick="document.querySelector('#toast1').show()">Discard Draft</paper-button>
+
+<paper-toast id="toast1" text="Your draft has been discarded." onclick="discardDraft(el)">paper toast</paper-toast>
+
+<script>
+  function discardDraft(el) {
+    el.show();
+  }
+</script>
